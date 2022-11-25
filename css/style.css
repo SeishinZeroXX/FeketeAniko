@@ -1,32 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-html
-{
+
+html {
     min-width: 500px;
 }
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.contact_body
-{
+
+.contact_body {
     background-image: url("../img/basicbg.jfif");
-    background-repeat:repeat-y;
+    background-repeat: repeat-y;
     background-position: 100%;
-    
 }
-.contact_container
-{
+
+.contact_container {
     line-height: 1.6;
     min-height: 80vh;
     display: grid;
     place-items: center;
 }
-.buscard
-{
+
+.buscard {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     max-width: 630px;
     display: flex;
@@ -37,73 +36,72 @@ html
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 20px;
-    margin: 2em;
+    margin: 2em 0em 2em 0em;
 }
-.social-list
-{
+
+.social-list {
     justify-content: space-around;
     list-style: none;
     margin: 0;
     padding: 0;
     margin: 0 auto;
 }
-.social-link
-{
+
+.social-link {
     color: black;
     opacity: 0,5;
     font-size: 1.125rem;
 }
-.social-item:hover
-{
+
+.social-item:hover {
     transform: scale(1.1);
 }
-.wallitrade-image
-{
+
+.wallitrade-image {
     width: 125px;
     margin-bottom: 2em;
 }
-.profile-image
-{
+
+.profile-image {
     width: 125px;
 }
-.profile-name
-{
+
+.profile-name {
     font-size: 2rem;
     line-height: 1.1;
     letter-spacing: 1px;
 }
-.profile-position
-{
+
+.profile-position {
     margin: 0;
     text-transform: uppercase;
     font-size: 0.875rem;
     letter-spacing: 3px;
     margin-bottom: 2em;
 }
-.profile-body
-{
+
+.profile-body {
     font-weight: 300;
     opacity: 0.8;
     margin-bottom: 0;
 }
-.social-list a
-{
+
+.social-list a {
     text-decoration: none;
 }
-@media (min-width: 610px)
-{
-    .buscard
-    {
-        margin: 2em;
+
+@media (min-width: 610px) {
+    .buscard {
+        margin: 2em 0em 2em 0em;
         flex-direction: row;
     }
-    .profile-main
-    {
+
+    .profile-main {
         text-align: left;
         margin-left: 2em;
     }
-    .profile-name::after
-    {
+
+    .profile-name::after {
         margin-left: 0;
     }
 }
